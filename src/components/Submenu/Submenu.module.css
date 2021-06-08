@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Rolling";
+  src: url("../../assets/fonts/Rolling-Bold.ttf");
+}
+.container{
+  position: absolute;
+  right: 0;
+  top: 3em;
+  width: 15em;
+  height: auto;
+  background: rgb(101,32,45);
+  background: radial-gradient(circle, rgba(101,32,45,1) 0%, rgba(87,6,16,1) 46%);
+  border-radius: 0.5em;
+  z-index: 1;
+  box-shadow: 2px 2px 5px black;
+  margin-right: 0.1em;
+}
+.container ul{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-family:"Rolling";
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+.container ul li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+.container ul li p{
+  margin: 0;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+.hiddenV2{
+  display: none;
+}
+.noHiddenV2{
+  display: flex;
+  margin-left: 25%;
+}
